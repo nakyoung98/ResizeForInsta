@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/you_a/StudioProjects/ResizeForInsta/app/src/main/res/drawable/gallary_Image.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/you_a/StudioProjects/ResizeForInsta/app/src/main/res/drawable/gallary_image.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/you_a/StudioProjects/ResizeForInsta/app/src/main/res/drawable/image.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/you_a/StudioProjects/ResizeForInsta/app/src/main/res/layout/activity_imageload.xml" value="0.1" />
-        <entry key="..\:/Users/you_a/StudioProjects/ResizeForInsta/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/you_a/StudioProjects/ResizeForInsta/app/src/main/res/layout/activity_main.xml" value="0.2857142857142857" />
       </map>
     </option>
   </component>

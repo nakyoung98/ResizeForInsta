@@ -29,8 +29,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
+    <!--Button: launch intent to pick image from gallery-->
     <Button
-        android:id="@+id/getImage"
+        android:id="@+id/getImageBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -42,15 +43,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/subtitle" />
 
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="409dp"
-        android:layout_height="492dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
+    <GridView
+        android:id="@+id/imgGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:columnWidth="10dp"
+        android:gravity="center"
+        android:numColumns="3"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/getImage"
-        app:layout_constraintVertical_bias="0.533" />
+        app:layout_constraintTop_toBottomOf="@+id/getImageBtn"
+        tools:layout_editor_absoluteX="10dp" />
+
+
+    <!-- ImageView: set Image after picking from gallery-->
 
 </android.support.constraint.ConstraintLayout>
